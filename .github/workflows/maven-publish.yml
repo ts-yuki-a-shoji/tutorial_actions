@@ -25,11 +25,6 @@ jobs:
 
         echo "######### ls -la /opt/hostedtoolcache #########"
         ls -la /opt/hostedtoolcache
-        echo "######### ls -la /opt/hostedtoolcache/Java_Adopt_jdk/ #########"
-        ls -la /opt/hostedtoolcache/Java_Adopt_jdk/
-
-        echo "######### test java comand #########"
-        which java
 
         echo "######### maven #########"
         mvn -v
